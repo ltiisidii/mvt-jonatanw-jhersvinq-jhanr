@@ -1,3 +1,19 @@
+# !!! IMPORTANTE !!!
+
+##Crear un archivo .env que contenga SECRET_KEY y generar un secret propio utilizando este ONELINE:
+
+### creo un secret propio
+
+```
+python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'
+```
+
+###Cargar en el .env lo siguiente:
+
+```
+SECRET_KEY = 'INSERTARACAUNSECRETKEYPROPIO'
+```
+
 # Carga de familiares
 
 Para cargar familia correr desde la terminal:
